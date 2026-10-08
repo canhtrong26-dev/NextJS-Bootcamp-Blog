@@ -31,7 +31,7 @@ export default function Navbar() {
 
         <ul className="hidden md:flex gap-8 text-gray-700 dark:text-gray-300">
           <li><a className="hover:text-green-400" href="#">Home</a></li>
-          <li><a className="hover:text-green-400" href="#">Blog</a></li>
+          <li><a className="hover:text-green-400" href="/blog">Blog</a></li>
           <li><a className="hover:text-green-400" href="#">Single Post</a></li>
           <li><a className="hover:text-green-400" href="#">Pages</a></li>
           <li><a className="hover:text-green-400" href="#">Contact</a></li>
