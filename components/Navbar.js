@@ -34,8 +34,8 @@ export default function Navbar() {
           <li><Link className="hover:text-green-400" href="/">Home</Link></li>
           <li><Link className="hover:text-green-400" href="/blog">Blog</Link></li>
           <li><Link className="hover:text-green-400" href="/single-post">Single Post</Link></li>
-          <li><Link className="hover:text-green-400" href="/pages">Pages</Link></li>
-          <li><Link className="hover:text-green-400" href="/contact">Contact</Link></li>
+          <li><Link className="hover:text-green-400" href="/author">Author</Link></li>
+          <li><Link className="hover:text-green-400" href="/#">Contact</Link></li>
         </ul>
 
         <div className="flex items-center gap-4">
