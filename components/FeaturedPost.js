@@ -1,4 +1,6 @@
-export default function FeaturedPost({ category, title, author, date, image }) {
+import Image from "next/image"
+
+export default function FeaturedPost({ category, title, author, date, image, avatar }) {
   return (
     <section className="max-w-[1216px] mx-auto px-4">
       <div
@@ -16,7 +18,13 @@ export default function FeaturedPost({ category, title, author, date, image }) {
           </h2>
           <div className="flex items-center gap-4 text-sm">
             <div className="flex items-center gap-2">
-              <div className="w-9 h-9 bg-gray-300 rounded-full"></div>
+              <Image
+                src={avatar}
+                alt={author}
+                width={36}
+                height={36}
+                className="rounded-full object-cover"
+              />
               <span>{author}</span>
             </div>
             <span>{date}</span>

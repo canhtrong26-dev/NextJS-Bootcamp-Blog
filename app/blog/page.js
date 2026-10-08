@@ -17,6 +17,7 @@ export default function Blog() {
         author={featured.author}
         date={featured.date}
         image={featured.image}
+        avatar={featured.avatar}
       />
 
       <section className="max-w-[1216px] mx-auto px-4 py-10">

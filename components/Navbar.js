@@ -1,6 +1,7 @@
 "use client"
-
 import Image from "next/image"
+import Link from "next/link"
+
 
 export default function Navbar() {
 
@@ -30,11 +31,11 @@ export default function Navbar() {
         </div>
 
         <ul className="hidden md:flex gap-8 text-gray-700 dark:text-gray-300">
-          <li><a className="hover:text-green-400" href="#">Home</a></li>
-          <li><a className="hover:text-green-400" href="/blog">Blog</a></li>
-          <li><a className="hover:text-green-400" href="#">Single Post</a></li>
-          <li><a className="hover:text-green-400" href="#">Pages</a></li>
-          <li><a className="hover:text-green-400" href="#">Contact</a></li>
+          <li><Link className="hover:text-green-400" href="/">Home</Link></li>
+          <li><Link className="hover:text-green-400" href="/blog">Blog</Link></li>
+          <li><Link className="hover:text-green-400" href="/single-post">Single Post</Link></li>
+          <li><Link className="hover:text-green-400" href="/pages">Pages</Link></li>
+          <li><Link className="hover:text-green-400" href="/contact">Contact</Link></li>
         </ul>
 
         <div className="flex items-center gap-4">
